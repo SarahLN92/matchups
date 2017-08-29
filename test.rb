@@ -1,4 +1,5 @@
 require_relative "team"
+require_relative "add_teams"
 
-my_team = Team.new("hawks ", 2)
-puts "My team name is #{my_team.name }and their seed is #{my_team.seed}"
+teams = []
+add_teams(teams)
